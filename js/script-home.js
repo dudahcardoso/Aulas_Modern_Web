@@ -23,6 +23,9 @@ function mostrarEndereco(dados){
     }else{    
     //console.log(dados.localidade);
     nomeLocalizacao.innerHTML = dados.localidade;
+    //parar não ficar aparecendo o espaço que o nome da localidade ocupa e só aparecer após o botão apertado
+    cep.style.display = "none";
+    nomeLocalizacao.style.display = "flex";
 }
 }
 

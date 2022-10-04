@@ -25,7 +25,9 @@
   
           <li id="image-localizacao">
             <i class="bi bi-geo-alt"></i>
-            <p class="nome-localizacao">Londrina, PR</p>
+            <input id="cep" type="text" placeholder="Digite seu CEP">
+            <p class="nome-localizacao"></p>
+            <button onclick="consultaEndereco()">OK</button>
           </li>
   
           <li class="logo-empresa">
@@ -46,10 +48,10 @@
 
       <div class="login-senha">
         <label for="" class="login">LOGIN</label>
-        <input id="myInput" type="text" class="input"/>
+        <input id="myInput" type="text" class="input" placeholder="Digite seu user-login"/>
 
         <label for="" class="login">SENHA</label>
-        <input id="myInput" type="password" class="input"/>
+        <input id="myInput" type="password" class="input" placeholder="Digite sua senha"/>
 
         <button id="addBtn" class="botao">REALIZAR LOGIN</button>
       </div>
@@ -98,5 +100,6 @@
   </footer>
 
   <script src="./js/script.js"></script>
+  <script src="./js/script-home.js"></script>
   </body>
 </html>
