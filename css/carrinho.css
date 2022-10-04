@@ -15,10 +15,12 @@ i.bi-chevron-double-left{
     padding-left: 1.5rem;    
 }
 
-.nome-carrinho{
-    font-size: 20px;
-    font-weight: 800;
-    padding: 0.4rem;
+#nome-empresa{
+    font-size: 40px;
+    color: var(--cor-empresa);
+    text-shadow: 2px 2px black;
+    text-align: center;
+    padding: 1.5rem;
 }
 
 i.bi-cart-x{
